@@ -1,0 +1,67 @@
+/* -------------------
+    Basic Setup
+---------------------*/
+.galleryTitle{
+    color: red;
+    text-align: center;
+}
+.gallery{
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.galleryRow{
+    width: 200px;
+    height: auto;
+    display: block;
+}
+.galleryRow img {
+    width: 100%;
+}
+.imageWrapper h1{
+        display: none;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        bottom: 0;
+        color: white;
+}
+
+.imageWrapper{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+.imageHover h1{ 
+    display: block;
+}
+.imageHover img:hover{
+     opacity: 0.5;
+} 
+
+/*  Modal */
+.modal {
+    position: absolute;
+    display: none;
+    width: 100%;
+  }
+.openModal{
+    display: block;
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+  
